@@ -1,0 +1,72 @@
+body{
+    background-color: aquamarine;
+}
+
+.choices{
+
+    display:flex;
+    margin-top:90px;
+    justify-content: center;
+    gap:7px;
+    align-items: center;
+}
+
+.option{
+    border-radius:50%;
+    text-align: center;
+    background-color: aliceblue;
+    text-align: center;
+    
+}
+
+#rock img{
+    background-color: aliceblue;
+    border-radius: 50%;
+    object-fit: cover;
+    text-align: center;
+
+}
+
+.option:hover{
+    background-color: black;
+    opacity:1.2;
+    cursor: pointer;
+}
+
+.score{
+    display: flex;
+    justify-content: center;
+    gap:7px;
+    margin-top:90px;
+}
+
+h1{
+    text-align: center;
+}
+
+img{
+    height:80px;
+}
+
+.you{
+    margin-left:60px;
+}
+
+
+.decision{
+    margin-top:40px;
+    /* background-color: blue; */
+    height:30px;
+    text-align: center;
+    font-size: 25px;
+    color:rgb(1, 3, 4);
+    
+    
+    
+    
+}
+
+.finalscore,.finalscore_1{
+    font-size:40px;
+}
+
